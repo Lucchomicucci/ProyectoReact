@@ -1,0 +1,70 @@
+body{
+  background-image: url("./fondoazul.jpg");
+}
+
+.card{
+ width: 14rem;
+ margin: 1rem;
+ background-color: #00000054!important;
+}
+
+.productsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#logoppal{
+  width: 5rem;
+}
+
+a{
+  text-decoration: none!important;
+  color: white!important;
+}
+
+.card-body p, h5{
+  color: white;
+}
+
+.dropdown-menu{
+  background-color:#212529!important;
+}
+
+.card-detail{
+  width: 20rem;
+}
+
+.orderCompra{
+  text-align: center;
+  margin: 10% auto;
+  width: 50%;
+  border: 3px dashed #ececec;
+  border-radius: 40px 40px 40px 40px;
+  color: wheat;
+}
+
+.cart{
+  color: white;
+}
+
+.cart-bg{
+  background-color: rgb(73 78 98);
+  width: 50%;
+  margin: 1% 25%!important;
+  padding: 0.5rem;
+}
+
+.carritoVacio{
+  font-size: x-large;
+  margin: 3rem;
+}
+
+.carrito{
+  text-align: center;
+}
+
+.row{
+  box-sizing: border-box;
+  border: solid black 1px;
+}
